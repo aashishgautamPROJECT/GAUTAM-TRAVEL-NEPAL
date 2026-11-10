@@ -1,0 +1,8 @@
+{
+  "name": "git config --global user.name \"Aashish Gautam\" git config --global user.email \"aashishgautam88487@gmail.com\"",
+  "description": "A mindful, bookable travel planning platform for Pokhara and Chitwan by Meridian Journeys.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

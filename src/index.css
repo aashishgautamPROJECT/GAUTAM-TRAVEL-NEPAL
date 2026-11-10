@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-lokta: #F5F0E6;
+    --color-ink: #1F2A2E;
+    --color-himalaya: #2F5D7C;
+    --color-saffron: #D98E2B;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color: #1F2A2E;
+    background-color: #F5F0E6;
+    font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+}
+
+/* Hairline dividers */
+.hairline-b {
+  border-bottom: 1px solid #D9D3C7;
+}
+
+.hairline-t {
+  border-top: 1px solid #D9D3C7;
+}
+
+.hairline-y {
+  border-top: 1px solid #D9D3C7;
+  border-bottom: 1px solid #D9D3C7;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
